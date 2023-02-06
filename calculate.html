@@ -67,9 +67,9 @@
         let profitLoss = (salePrice - costPrice - expenses);
         let result = document.getElementById("result");
         if (profitLoss > 0) {
-          result.innerHTML = "Profit: $" + profitLoss;
+          result.innerHTML = "Profit: Rs." + profitLoss;
         } else if (profitLoss < 0) {
-          result.innerHTML = "Loss: $" + Math.abs(profitLoss);
+          result.innerHTML = "Loss: RS." + Math.abs(profitLoss);
         } else {
           result.innerHTML = "Neither Profit nor Loss";
         }
